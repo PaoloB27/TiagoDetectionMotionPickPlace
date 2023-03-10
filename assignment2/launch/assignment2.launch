@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+<node name ="server" pkg="simple_navigation_goals" type="server"/>
+<node name ="node_A" pkg="assignment2" type="node_A"/>
+<node name ="node_B" pkg="assignment2" type="node_B"/>
+<node name ="node_C" pkg="assignment2" type="node_C"/>
+</launch>
