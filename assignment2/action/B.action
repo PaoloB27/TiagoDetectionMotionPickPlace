@@ -1,0 +1,8 @@
+#goal definition
+int32 id
+---
+#result definition
+float64[7] obj_pose
+---
+#feedback
+string current_action

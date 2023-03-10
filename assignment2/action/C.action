@@ -1,0 +1,10 @@
+#goal definition
+float32[7] obj_pose
+bool pick_place_flag
+int32 tag_id
+---
+#result definition
+bool task_completed
+---
+#feedback
+string current_action
