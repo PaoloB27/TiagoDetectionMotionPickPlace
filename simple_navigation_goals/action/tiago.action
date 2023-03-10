@@ -1,0 +1,9 @@
+#goal definition
+float32[7] final_position
+---
+#result definition
+float32[] objs_locations_x_coord
+float32[] objs_locations_y_coord
+---
+#feedback
+string current_action
