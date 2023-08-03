@@ -1,7 +1,18 @@
-# IntelligentRobotics
-Project developed for the Intelligent Robotics course at University of Padova
+# TiagoDetectionMotionPickPlace
 
-**List of commands used to execute the code**
+## Brief description of the software
+The project developed consists in making Tiago (a real existing mobile robot) move in an environment in order to pick three objects with different shapes and colors in the order specified by the user and then place them on three tables detected by the robot, such that each object is placed in the table that has the same color of the object itself.
+
+## Main modules developed
+The entire software has been produced, based on ROS.
+The main modules developed are:
+- movement of Tiago: make the robot navigate in the environment and reach whatever desired position, correctly avoiding obstacles;
+- object detection using the laser: while Tiago has several cameras, in order to make the detection of obstacles and tables more challenging, a module that uses laser scanner measurements to detect obstacles has been developed and used to find the tables where to put the collected objects;
+- planning scene and tag detection: the object is detected by means of an Apriltag placed on it and recognized from images collected by the cameras of the robot. Then the planning scene is created;
+- pick routine: make the robot correctly pick the desired object without colliding with the table or other objects in the scene;
+- place routine: software to place the object that Tiago holds on the desired position on the table.
+
+## List of commands used to execute the code
 
 1. Terminal 1: roscore
    * cd ~/tiago_public_ws
