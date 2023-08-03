@@ -1,8 +1,6 @@
 # TiagoDetectionMotionPickPlace
-
 ## Brief description of the software
 The project developed consists in making Tiago (a real existing mobile robot) move in an environment in order to pick three objects with different shapes and colors in the order specified by the user and then place them on three tables detected by the robot, such that each object is placed in the table that has the same color of the object itself.
-
 ## Main modules developed
 The entire software has been produced, based on ROS.
 The main modules developed are:
@@ -11,9 +9,7 @@ The main modules developed are:
 - planning scene and tag detection: the object is detected by means of an Apriltag placed on it and recognized from images collected by the cameras of the robot. Then the planning scene is created;
 - pick routine: make the robot correctly pick the desired object without colliding with the table or other objects in the scene;
 - place routine: software to place the object that Tiago holds on the desired position on the table.
-
 ## List of commands used to execute the code
-
 1. Terminal 1: roscore
    * cd ~/tiago_public_ws
    * source devel/setup.bash
